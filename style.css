@@ -1,0 +1,84 @@
+header {
+    height: 300px;
+    margin: 0 10% 0 10%;
+    background-image: url(úvodnífoto1.jpg);
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+h1 {
+    font-size: 300%;
+    font-style: oblique;
+    color: rgb(216, 183, 183);
+    padding: 180px 0 0 50px;
+    text-shadow: 0 10px 10px rgba(0, 0, 0, 0.9);
+    
+}
+
+.uvodni img {
+    border-radius: 50%;
+    border: white solid 2px;
+}
+.uvod {
+    padding: 2% 5% 5% 5%;
+    border-top: white solid 2px;
+}
+.okraje {
+    margin: 0 10% 0 10%;
+    background-color: rgb(216, 183, 183);
+}
+footer {
+    padding: 10px 0px 10px 0px;
+    background-color: rgb(190, 202, 198);
+    display: flex;
+    justify-content: space-evenly;
+}
+a {
+    font-style: italic;
+}
+.uvodni {
+    display: flex;
+    justify-content: space-evenly;
+}
+.omne {
+    font-size: 130%;
+    padding: 20px 40px 0 0;
+}
+.omne2{
+    font-size: 105%;
+}
+.bubl1,
+.bubl2,
+.bubl3 {
+    font-size: 105%;
+    margin: 30px 10px 10px 10px;
+    padding: 5px;
+    border:  white solid 2px;
+    border-radius: 10px;
+    background-color: rgb(229, 207, 207);
+}
+.bubliny{
+    display:flex;
+    justify-content: space-evenly;
+}
+@media (max-width: 800px){
+    .bubliny {
+        flex-direction: column;
+    }
+    .uvodni {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .uvodni img{
+        max-width: 50%;
+        max-height: auto;
+    }
+    footer {
+        flex-direction: column;
+    }
+    h1 {
+        text-align: center;
+    }
+}
+
